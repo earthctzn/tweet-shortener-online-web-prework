@@ -35,4 +35,5 @@ def selective_tweet_shortener(twts)
     end
   end
 
-def
+def shortened_tweet_truncator(twts)
+  if twts
