@@ -37,4 +37,4 @@ def selective_tweet_shortener(twts)
     end
   end
 end
-
+end
