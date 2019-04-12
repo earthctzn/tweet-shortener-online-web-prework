@@ -10,8 +10,8 @@ def dictionary
   "you" => "u",
   "at" => "@",
   "and" => "&"
-}# Write your code here.
-end
+  }# Write your code here.
+  end
 
 def word_substituter(str)
   tweet = str.split(" ").map do |string|
