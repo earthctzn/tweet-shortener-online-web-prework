@@ -30,8 +30,8 @@ def bulk_tweet_shortener(twts)
 
 def selective_tweet_shortener(twts)
   if twts.length > 140
-    elsif twts.length < 130
-      word_substituter(twts)
+    
+      word_substituter(twts)elsif twts.length < 130
     else
       twts
     end
