@@ -40,3 +40,4 @@ def shortened_tweet_truncator(twts)
     twts[0..137] + "..."
   else twts
   end
+end
